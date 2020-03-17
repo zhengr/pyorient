@@ -4,11 +4,15 @@ python:
 - '2.7'
 - '3.5'
 
+dist: trusty
 language: java
-dist: xenial
-sudo: required
 jdk:
   - openjdk11
+  - oraclejdk11
+  - openjdk10
+  - oraclejdk9
+  - oraclejdk8
+  - openjdk7
 
 install:
 - pip install coveralls
