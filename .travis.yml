@@ -4,15 +4,11 @@ python:
 - '2.7'
 - '3.5'
 
-dist: trusty
-language: java
 jdk:
-  - openjdk11
+  - oraclejdk8
   - oraclejdk11
   - openjdk10
-  - oraclejdk9
-  - oraclejdk8
-  - openjdk7
+  - openjdk11
 
 install:
 - pip install coveralls
