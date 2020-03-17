@@ -8,7 +8,7 @@ sudo: false
 addons:
   apt:
     packages:
-      - openjdk8
+      - openjdk11
 
 install:
 - pip install coveralls
