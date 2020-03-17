@@ -5,8 +5,10 @@ python:
 - '3.5'
 
 language: java
+dist: xenial
+sudo: required
 jdk:
-  - oraclejdk10
+  - openjdk11
 
 install:
 - pip install coveralls
